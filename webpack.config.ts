@@ -17,8 +17,6 @@ export default (env: BuildEnv) => {
     // @ts-ignore
     const isDev = mode === 'development';
 
-    console.log('mode ', mode);
-
     const config: webpack.Configuration = buildWebpackConfig({
         mode,
         paths,
